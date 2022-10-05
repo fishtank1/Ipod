@@ -1,0 +1,118 @@
+.Ipod-container {
+    margin: auto;
+    margin-top: 30px;
+    width: 350px;
+    height: 230px;
+    padding-top: 15px;
+    background-image: linear-gradient(65deg , #2d2b2b , rgb(73, 70, 70));
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-top: 3px solid silver;
+    border-left: 3px solid silver;
+    border-right: 3px solid rgb(219, 219, 219);;
+    border-bottom: none;
+}
+
+.Ipod-screen {
+    margin: auto;
+    width: 325px;
+    height: 230px;
+    border-radius: 25px;
+    background-color: black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.main-screen {
+    width: 320px;
+    margin: 2px auto;
+    height: 226px;
+    display: flex;
+    flex-wrap: nowrap;
+    border-radius: 20px;
+}
+
+.screen-leftside {
+    width: 50%;
+    z-index: 1;
+    height: 226px;
+    display: flex;
+    overflow-y: hidden;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 3px 0 10px 5px rgb(51, 49, 49);
+    background-image: url(https://9to5mac.com/wp-content/uploads/sites/6/2020/09/1652.Noodles_Blue_Dark-820w-1180h@2xipad.png);
+}
+
+.screen-rightside {
+    width: 50%;
+    height: 226px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-image: url(https://vgmsite.com/soundtracks/attack-on-titan-video-game-soundtrack/maxresdefault.jpg);
+}
+
+.NavBar {
+    display: flex;
+    margin: 0 10px;
+    margin-top: -10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.NavBar p {
+    font-weight: 500;
+}
+
+.fa-battery-full, .NavBar p {
+    color: #CFD0CD;
+}
+
+.tiles {
+    width: 95%;
+    opacity: 0.6;
+    height: 30px;
+    margin: auto;
+    display: flex;
+    cursor: default;
+    font-weight: 500;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    align-items: center;
+    background-color: gray;
+}
+
+.app-icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    margin-right: 8px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.music {
+    background-image: url(https://cdn.jim-nielsen.com/ios/512/apple-music-2020-09-25.png);
+}
+
+.podcast {
+    background-image: url(https://cdn4.iconfinder.com/data/icons/miu-flat-social/60/podcast-512.png);
+}
+.games {
+    background-image: url(https://iconarchive.com/download/i81996/hamzasaleem/stock-style-3/Game-Center.ico);
+}
+.settings {
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1f80c78a-4070-4082-85ed-f2d4cf3894db/d88y06v-9bf586ed-3aa1-42b8-8ca5-343fc26843a2.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzFmODBjNzhhLTQwNzAtNDA4Mi04NWVkLWYyZDRjZjM4OTRkYlwvZDg4eTA2di05YmY1ODZlZC0zYWExLTQyYjgtOGNhNS0zNDNmYzI2ODQzYTIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.3ztis7iKYyTWcoutMZaydFV7NmDooZvh22emcS9OqEk);
+}
