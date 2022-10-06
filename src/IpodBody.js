@@ -10,30 +10,30 @@ class IpodBody extends Component {
                         <div className="screen-leftside">
                             <div className="NavBar">
                                 <p>9:41</p>
-                                <i class="fa-solid fa-battery-full"></i>
+                                <i className="fa-solid fa-battery-full"></i>
                             </div>
                             
                             <div className="AppList">
-                                <div className="Music tiles">
+                                <div className="tiles">
                                     <div className="app-icon music"></div>
                                     <p>Music</p>
                                 </div>
-                                <div className="Podcast tiles">
+                                <div className="tiles">
                                     <div className="app-icon podcast"></div>
                                     <p>Podcast</p>                                    
                                 </div>
-                                <div className="Games tiles">
+                                <div className="tiles">
                                     <div className="app-icon games"></div>
                                     <p>Games</p>
                                 </div>
-                                <div className="Settings tiles">
+                                <div className="tiles">
                                     <div className="app-icon settings"></div>
                                     <p>Settings</p>
                                 </div>
 
                                 <div className="tiles">
-                                    <div className="app-icon"></div>
-                                    <p></p>
+                                    <div className="app-icon books"></div>
+                                    <p>Books</p>
                                 </div>
                             </div>
                         </div>

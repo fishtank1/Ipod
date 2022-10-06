@@ -80,7 +80,6 @@
 
 .tiles {
     width: 95%;
-    opacity: 0.6;
     height: 30px;
     margin: auto;
     display: flex;
@@ -89,7 +88,7 @@
     margin-bottom: 5px;
     border-radius: 10px;
     align-items: center;
-    background-color: gray;
+    background-color: #bdbec17a;
 }
 
 .app-icon {
@@ -115,4 +114,9 @@
 }
 .settings {
     background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1f80c78a-4070-4082-85ed-f2d4cf3894db/d88y06v-9bf586ed-3aa1-42b8-8ca5-343fc26843a2.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzFmODBjNzhhLTQwNzAtNDA4Mi04NWVkLWYyZDRjZjM4OTRkYlwvZDg4eTA2di05YmY1ODZlZC0zYWExLTQyYjgtOGNhNS0zNDNmYzI2ODQzYTIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.3ztis7iKYyTWcoutMZaydFV7NmDooZvh22emcS9OqEk);
+}
+
+.books {
+    background-color: white;
+    background-image: url(https://daisy.org/wp-content/uploads/2020/07/apple-books-app-icon.png);
 }
