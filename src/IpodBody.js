@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import './IpodBody.css'
 
 class IpodBody extends Component {
+
     render() {
         return (
             <div className="Ipod-container">
